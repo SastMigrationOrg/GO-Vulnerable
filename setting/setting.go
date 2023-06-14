@@ -21,6 +21,7 @@ func New() Setting {
 	return Setting{}
 }
 
+
 func (self Setting) SetRouter(r *httprouter.Router) {
 
 	mw := middleware.New()
