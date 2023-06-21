@@ -15,7 +15,6 @@ import (
 	"govwa/user/session"
 	"govwa/util/database"
 	"govwa/util/middleware"
-
 	"github.com/julienschmidt/httprouter"
 )
 
